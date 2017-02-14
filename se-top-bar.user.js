@@ -30,9 +30,14 @@ function addGlobalStyle(css) {
     head.appendChild(style);
 }
 
-//Change background and border color to grey
+//Change background and border color to grey. Reduce box-shadow.
 addGlobalStyle ( 
-    'header.so-header.js-so-header{ background-color:#f5f5f5; box-shadow:0 0 0 rgba(12,13,14,0.1), 0 0 0 rgba(12,13,14,0.035), 0 1px 0 rgba(12,13,14,0.1), 0 0 1px rgba(12,13,14,0.025) }' 
+    'header.so-header.js-so-header{ background-color:#f3f3f3; box-shadow:0 1px 0 rgba(12,13,14,0.1), 0 0 1px rgba(12,13,14,0.2) }' 
+);
+
+//Change scrolling border to same grey and box-shadow as above
+addGlobalStyle ( 
+    '.so-header._fixed._scrolling { box-shadow:0 1px 0 rgba(12,13,14,0.1), 0 0 1px rgba(12,13,14,0.2) }' 
 );
 
 //Remove Tags tab
