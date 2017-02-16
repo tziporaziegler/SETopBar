@@ -57,10 +57,6 @@ addGlobalStyle (
 
 //The remaining styles make the entire top-bar shorter
 addGlobalStyle (
-    '.so-header .my-profile { padding:13px 10px; }'
-);
-
-addGlobalStyle (
     '.so-header { height:48px; }'
 );
 
@@ -74,4 +70,10 @@ addGlobalStyle (
 
 addGlobalStyle (
     '.so-header .navigation .-link, .so-header .secondary-nav .-link { line-height:35px }'
+);
+
+//Set the profile area padding to be match the rest of the top-bar elements
+//This becomes noticable on hover
+addGlobalStyle (
+    '.so-header .my-profile { padding:8px 10px; }'
 );
