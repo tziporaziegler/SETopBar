@@ -7,6 +7,7 @@
 // @include     http://meta.stackoverflow.com/*
 // @include     *.stackexchange.com/*
 // @version     1.0
+// @run-at document-start
 // ==/UserScript==
 
 (function() {
