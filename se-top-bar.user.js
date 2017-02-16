@@ -47,7 +47,7 @@ addGlobalStyle (
 
 //Reduce spacing needed for sticky top-bar
 addGlobalStyle (
-    '.so-header~.container { padding-top: 43px; }'    
+    '.so-header~.container { padding-top: 38px; }'    
 );
 
 //Make Search Bar shorter
@@ -65,9 +65,9 @@ addGlobalStyle (
     '.so-header .navigation .-link,' +
     '.so-header .secondary-nav .-list,' +
     '.so-header .secondary-nav .-link,' +
-    '.so-header .-logo { height:40px }'
+    '.so-header .-logo { height:35px }'
 );
 
 addGlobalStyle (
-    '.so-header .navigation .-link, .so-header .secondary-nav .-link { line-height:40px }'
+    '.so-header .navigation .-link, .so-header .secondary-nav .-link { line-height:35px }'
 );
