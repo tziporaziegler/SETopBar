@@ -52,12 +52,16 @@ addGlobalStyle (
 
 //Make Search Bar shorter
 addGlobalStyle (
-  '.so-header .searchbar input[type="text"].f-input { height: 32px; }'
+  '.so-header .searchbar input[type="text"].f-input, .so-header .searchbar .btn { height: 32px; }'
 );
 
-//The next three styles make the entire top-bar shorter
+//The remaining styles make the entire top-bar shorter
 addGlobalStyle (
     '.so-header .my-profile { padding:13px 10px; }'
+);
+
+addGlobalStyle (
+    '.so-header { height:48px; }'
 );
 
 addGlobalStyle (
