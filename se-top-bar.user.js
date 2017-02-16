@@ -47,7 +47,7 @@ addGlobalStyle (
 
 //Reduce spacing needed for sticky top-bar
 addGlobalStyle (
-    '.so-header~.container { padding-top: 38px; }'    
+    '.so-header~.container { padding-top: 45px; }'    
 );
 
 //Make Search Bar shorter
