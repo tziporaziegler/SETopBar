@@ -6,7 +6,7 @@
 // @include     http://stackoverflow.com/*
 // @include     http://meta.stackoverflow.com/*
 // @include     *.stackexchange.com/*
-// @version     1.0
+// @version     1.1
 // @run-at document-start
 // ==/UserScript==
 
@@ -77,4 +77,9 @@ addGlobalStyle (
 //This becomes noticable on hover
 addGlobalStyle (
     '.so-header .my-profile { padding:8px 10px; }'
+);
+
+//Hide suggested edits review queue number
+addGlobalStyle (
+    '.indicator-badge.js-unread-count._reviews { display: none }'
 );
