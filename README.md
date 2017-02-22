@@ -9,5 +9,6 @@ This script:
 * Removes the bottom border shadow
 * Hides the Tags tab
 * Shortens the Documentation tab to "Docs" on Stack Overflow
+* Hides the suggested edits review queue count
 
 [1]:https://github.com/tziporaziegler/SETopBar/blob/master/so-top-bar-screenshot.png
