@@ -5,8 +5,8 @@
 // @author      Tzipora Ziegler
 // @include     http://stackoverflow.com/*
 // @include     http://meta.stackoverflow.com/*
-// @include     *.stackexchange.com/*
-// @version     1.1
+//// @include     *.stackexchange.com/*
+// @version     1.0.2
 // @run-at document-start
 // ==/UserScript==
 
