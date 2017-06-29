@@ -3,10 +3,10 @@
 // @namespace   https://github.com/tziporaziegler/SETopBar/
 // @description A user script for styling the Stack Exchange Network top-bar
 // @author      Tzipora Ziegler
-// @include     http://stackoverflow.com/*
-// @include     http://meta.stackoverflow.com/*
+// @include     https://stackoverflow.com/*
+// @include     https://meta.stackoverflow.com/*
 //// @include     *.stackexchange.com/*
-// @version     1.0.2
+// @version     1.0.3
 // @run-at document-start
 // ==/UserScript==
 
