@@ -6,8 +6,8 @@
 // @include     https://stackoverflow.com/*
 // @include     https://meta.stackoverflow.com/*
 //// @include     *.stackexchange.com/*
-// @version     1.0.5
-// @run-at document-start
+// @version     1.0.6
+// @run-at document-body
 // ==/UserScript==
 
 (function() {
@@ -17,10 +17,12 @@
     //Remove beta badge from Documentation tab
     $('small.beta-badge').remove();
 
+    //Set the Jobs tab name back to plain Jobs
+    $('#nav-jobs').text('Jobs');
+
     //Rename Documentation tab to Docs
     $('#nav-docs').text('Docs');
 })();
-
 
 function addGlobalStyle(css) {
     var head = document.getElementsByTagName('head')[0];
