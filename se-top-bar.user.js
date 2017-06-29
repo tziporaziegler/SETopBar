@@ -6,7 +6,7 @@
 // @include     https://stackoverflow.com/*
 // @include     https://meta.stackoverflow.com/*
 //// @include     *.stackexchange.com/*
-// @version     1.0.3
+// @version     1.0.5
 // @run-at document-start
 // ==/UserScript==
 
@@ -32,13 +32,13 @@ function addGlobalStyle(css) {
 }
 
 //Change background and border color to grey. Reduce box-shadow.
-addGlobalStyle ( 
-    'header.so-header.js-so-header{ background-color:#eff0f1; box-shadow:0 1px 0 rgba(12,13,14,0.1), 0 0 1px rgba(12,13,14,0.2) }' 
+addGlobalStyle (
+    'header.so-header.js-so-header{ background-color:#f4f4f4; box-shadow:0 1px 0 rgba(12,13,14,0.1), 0 0 1px rgba(12,13,14,0.2) }'
 );
 
 //Change scrolling border to same grey and box-shadow as above
-addGlobalStyle ( 
-    '.so-header._fixed._scrolling { box-shadow:0 1px 0 rgba(12,13,14,0.1), 0 0 1px rgba(12,13,14,0.2) }' 
+addGlobalStyle (
+    '.so-header._fixed._scrolling { box-shadow:0 1px 0 rgba(12,13,14,0.1), 0 0 1px rgba(12,13,14,0.2) }'
 );
 
 //Remove Tags tab
@@ -48,12 +48,12 @@ addGlobalStyle (
 
 //Reduce spacing needed for sticky top-bar
 addGlobalStyle (
-    '.so-header~.container { padding-top: 45px; }'    
+    '.so-header~.container { padding-top: 45px; }'
 );
 
 //Make Search Bar shorter
 addGlobalStyle (
-  '.so-header .searchbar input[type="text"].f-input, .so-header .searchbar .btn { height: 32px; }'
+    '.so-header .searchbar input[type="text"].f-input, .so-header .searchbar .btn { height: 32px; }'
 );
 
 //The remaining styles make the entire top-bar shorter
