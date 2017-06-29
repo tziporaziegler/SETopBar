@@ -33,7 +33,7 @@ function addGlobalStyle(css) {
 
 //Change background and border color to grey. Reduce box-shadow.
 addGlobalStyle ( 
-    'header.so-header.js-so-header{ background-color:#f5f5f5; box-shadow:0 1px 0 rgba(12,13,14,0.1), 0 0 1px rgba(12,13,14,0.2) }' 
+    'header.so-header.js-so-header{ background-color:#eff0f1; box-shadow:0 1px 0 rgba(12,13,14,0.1), 0 0 1px rgba(12,13,14,0.2) }' 
 );
 
 //Change scrolling border to same grey and box-shadow as above
