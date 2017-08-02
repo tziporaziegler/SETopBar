@@ -22,7 +22,7 @@
 
     //Rename Documentation tab to Docs
     $('#nav-docs').text('Docs');
-    
+
     addMetaLink();
 })();
 
