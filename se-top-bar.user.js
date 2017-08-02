@@ -6,7 +6,7 @@
 // @include     https://stackoverflow.com/*
 // @include     https://meta.stackoverflow.com/*
 //// @include     *.stackexchange.com/*
-// @version     1.0.6
+// @version     1.1.0
 // @run-at document-body
 // ==/UserScript==
 
