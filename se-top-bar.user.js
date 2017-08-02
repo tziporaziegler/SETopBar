@@ -22,7 +22,27 @@
 
     //Rename Documentation tab to Docs
     $('#nav-docs').text('Docs');
+    
+    addMetaLink();
 })();
+
+function addMetaLink()
+{
+    var a = document.createElement('a');
+
+    if(window.location.href.indexOf("meta") > -1)
+    {
+        a.href =  'https://stackoverflow.com/';
+        a.innerHTML = "Main";
+    }
+    else {
+        a.href =  'https://meta.stackoverflow.com/';
+        a.innerHTML = "Meta";
+    }
+
+    $('.-actions').prepend("&emsp;");
+    $('.-actions').prepend(a);
+}
 
 function addGlobalStyle(css) {
     var head = document.getElementsByTagName('head')[0];
