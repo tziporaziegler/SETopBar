@@ -12,4 +12,4 @@ This script:
 * Hides the suggested edits review queue count
 * Adds a icon link to easily toggle between the Meta and Main sites
 
-[1]:https://github.com/tziporaziegler/SETopBar/blob/master/so-top-bar-screenshot.png
+[1]:https://github.com/tziporaziegler/SETopBar/blob/master/so-top-bar-screenshot2.png
