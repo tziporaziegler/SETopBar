@@ -6,7 +6,7 @@
 // @include     https://stackoverflow.com/*
 // @include     https://meta.stackoverflow.com/*
 //// @include     *.stackexchange.com/*
-// @version     1.1.0
+// @version     1.2.0
 // @run-at document-body
 // ==/UserScript==
 
@@ -14,14 +14,8 @@
     //Remove Tags tab
     $('#nav-tags').parent().remove();
 
-    //Remove beta badge from Documentation tab
-    $('small.beta-badge').remove();
-
     //Set the Jobs tab name back to plain Jobs
     $('#nav-jobs').text('Jobs');
-
-    //Rename Documentation tab to Docs
-    $('#nav-docs').text('Docs');
 
     addMetaLink();
 })();
@@ -33,15 +27,14 @@ function addMetaLink()
     if(window.location.href.indexOf("meta") > -1)
     {
         a.href =  'https://stackoverflow.com/';
-        a.innerHTML = "Main";
+        a.innerHTML = "<img src='https://cdn.sstatic.net/Sites/stackoverflow/company/img/logos/so/so-icon.svg?v=6e4af45f4d66' style='height:35px' />";
     }
     else {
         a.href =  'https://meta.stackoverflow.com/';
-        a.innerHTML = "Meta";
+        a.innerHTML = "<img src='https://lh3.googleusercontent.com/proxy/rJXKmvckR8JowdIitBPHmtKFyNx4XBwV6vWtT5CAHqsG4FWULJ6cmmTKBJszS2rYEmApKGTOvmaGqGPjnu30LGsg2YlVE4963pACJuEVvk6BDQgTZY8b3FzDLRQry64qGQ9xmZy0Szkqx9AJm8LBerrvEfMNSPKeKQXT=s110-p' style='height:37px' />";
     }
 
-    $('.-actions').prepend("&emsp;");
-    $('.-actions').prepend(a);
+    $('.-actions').append(a);
 }
 
 function addGlobalStyle(css) {
