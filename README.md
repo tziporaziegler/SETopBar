@@ -7,8 +7,7 @@ This script:
 * Darkens the top-bar background
 * Removes the excess height and padding from top-bar
 * Removes the bottom border shadow
-* Hides the Tags tab
-* Sets Jobs tab back to plain "Jobs"
+* Hides the Tags and Jobs tabs
 * Hides the suggested edits review queue count
 * Adds an icon link to easily toggle between the Meta and Main sites
 
