@@ -6,7 +6,7 @@
 // @include     https://stackoverflow.com/*
 // @include     https://meta.stackoverflow.com/*
 //// @include     *.stackexchange.com/*
-// @version     1.2.0
+// @version     1.2.1
 // @run-at document-body
 // ==/UserScript==
 
@@ -14,8 +14,11 @@
     //Remove Tags tab
     $('#nav-tags').parent().remove();
 
+    //Remove Tags tab
+    $('#nav-jobs').parent().remove();
+    
     //Set the Jobs tab name back to plain Jobs
-    $('#nav-jobs').text('Jobs');
+    //$('#nav-jobs').text('Jobs');
 
     addMetaLink();
 })();
